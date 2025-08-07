@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 80" width="120" height="80">
+  <!-- Fundo oval vermelho -->
+  <ellipse cx="60" cy="40" rx="55" ry="32" fill="#E31E24"/>
+  
+  <!-- Raios de sol amarelos -->
+  <g fill="#FFD700">
+    <!-- Raio central -->
+    <rect x="57" y="8" width="6" height="14" rx="3"/>
+    <!-- Raios laterais -->
+    <rect x="46" y="12" width="5" height="12" rx="2.5" transform="rotate(-25 48.5 18)"/>
+    <rect x="69" y="12" width="5" height="12" rx="2.5" transform="rotate(25 71.5 18)"/>
+    <!-- Raios externos -->
+    <rect x="36" y="16" width="4" height="10" rx="2" transform="rotate(-50 38 21)"/>
+    <rect x="80" y="16" width="4" height="10" rx="2" transform="rotate(50 82 21)"/>
+    <!-- Raios mais externos -->
+    <rect x="28" y="22" width="3" height="8" rx="1.5" transform="rotate(-70 29.5 26)"/>
+    <rect x="89" y="22" width="3" height="8" rx="1.5" transform="rotate(70 90.5 26)"/>
+  </g>
+  
+  <!-- Texto Seara -->
+  <text x="60" y="50" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Seara</text>
+</svg>
